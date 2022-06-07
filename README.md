@@ -4,7 +4,7 @@
 参考論文にあるMNISTのFC2のニューラルネットワークでの解析を実装したものです。
 FC2の線形変換をニューラルネットワークのMPO(行列積状態)に置き換えたとなってます。
 
-mnist.ipynb : kerasを用いて実装したものです。
+mnist.ipynb : kerasを用いて実装したもの。
 入力層(28 $\times$ 28の入力を784の一次元にしたもの) $\rightarrow$ 中間層1(784 $\rightarrow$ 256) $\rightarrow$ Relu $\rightarrow$ 中間層1(256 $\rightarrow$ 10) $\rightarrow$ Softmax $\rightarrow$ 出力層
 
 そして、損失関数はcategorical crossentropyを用いた。正則化項はつけなかった。
